@@ -1,0 +1,34 @@
+.container-main .header {
+  font-family: "Balsamiq Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container-main 
+{
+  display: block;
+}
+.container-main .parag
+{
+  display: flex;
+  max-width: 600px;
+}
+
+.parag ul
+{
+  padding: 0px;
+}
+.parag ul ol
+{
+  padding: 0px;
+}
+.parag-text-img-html img 
+{
+  width: 88px;
+  height: 88px;
+}
+
+#html
+{
+  color: orange;
+  text-shadow: 1px 1px 1px black;
+}
