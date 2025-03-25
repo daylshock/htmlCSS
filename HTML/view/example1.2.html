@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Example1.2</title>
+    <style>
+        .container 
+        {
+            display: flex;
+            flex-direction: column;
+        }
+        .div1 {
+            background-color: orange;
+            margin-bottom: 16px;
+            border-radius: 8px;
+            width: 500px;
+        }
+        .div1 .desc
+        {
+            display: flex;
+            flex-direction: row;
+        }
+        .container .div1 .header 
+        {
+            margin-left: 8px;
+        }
+        .div1 .desc .img {
+            margin-right: 8px;
+            margin-left: 8px;
+            margin-bottom: 8px;
+            background-color: gray;
+            width: 45%;
+            border-radius: 8px;
+            text-align:center;
+        }
+        .text
+        {
+            margin-right: 8px;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <a href="example1.html" style="text-decoration: none">Задание 1</a>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="div1">
+                <p class="header"><strong>Волнистые попугаи</strong></p>
+                <div class="desc">
+                    <div class="img"><p>image</p></div>
+                    <div class="text"><p>Принимая во внимание показатели успешности, консультация с широким активом позволяет оценить значение новых принципов формирования материально-технической и кадровой базы.</p></div>
+                </div>
+            </div>
+            <div class="div1">
+                <p class="header"><strong>Попугай Корелла</strong></p>
+                <div class="desc">
+                    <div class="img"><p>image</p></div>
+                    <div class="text"><p>Принимая во внимание показатели успешности, консультация с широким активом позволяет оценить значение новых принципов формирования материально-технической и кадровой базы.</p></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
