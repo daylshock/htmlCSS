@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Example2</title>
+    <style>
+        .container .frame {
+            border-style: solid;
+            border-color: gray;
+            border-width: 4px;
+            width: 100px;
+            height: 100px;
+            transform: rotate(45rad);
+        }
+
+        .frame .frame-image {
+            background-color: darkgray;
+            border-style: solid;
+            border-color: aqua;
+            border-width: 4px;
+            height: 100%;
+            box-sizing: border-box;
+            transform: rotate(-45rad);
+        }
+
+    </style>
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="container">
+            <div class="frame">
+                <div class="frame-image">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
