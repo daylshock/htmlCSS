@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        .uppercase-text {
+            text-transform: uppercase;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container-form {
+            position: relative;
+            background-color: cadetblue;
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+            .container-form .container-form-input-data {
+                transform: translate(-20px, 20px);
+                background-color: orangered;
+                margin-bottom: 10%;
+            }
+
+        .container-form-input-data p {
+            color: white;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        .form-input {
+            margin-left: 15%;
+            width: 70%;
+            margin-bottom: 10%;
+        }
+
+            .form-input input {
+                color: darkslategrey;
+                background-color: lightseagreen;
+                outline: none;
+                border-bottom: solid;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+            }
+
+            .form-input p {
+                margin-bottom: 4px;
+                margin-top: 4px;
+                color: darkslategrey;
+            }
+
+            .form-input .form-input-data {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            .form-input .form-input-data-text {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            .form-input .form-input-data input {
+                width: 20%;
+            }
+    </style>
+</head>
+<body>
+    <header></header>
+    <div class="container">
+        <div class="container-form">
+            <div class="container-form-input-data">
+                <p class="uppercase-text">ввод данных карты</p>
+            </div>
+            <div class="form-input">
+                <form action="#" method="post">
+                    <p>Номер карты</p>
+                    <input type="text" name="num-card" maxlength="19" value="1234 1234 1234 1234" />
+                    <p>Имя и фамилия владельца</p>
+                    <input type="text" class="uppercase-text" name="full-name" value="ivan ivanov" />
+                    <div class="form-input-data-text">
+                        <p>Срок действия</p>
+                        <p class="uppercase-text">cvc/cvv</p>
+                    </div>
+                    <div class="form-input-data">
+                        <input name="validity-period-month" value="01" />
+                        <input name="validity-period-year" value="28" />
+                        <input type="password" name="CVC-CVV" maxlength="3" value="123" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+</body>
+</html>
