@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+            background-color: darkgray;
+            border-radius: 10px;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 220px;
+            min-width: 40px;
+        }
+
+            .container .container-book .book {
+                border-radius: 10px;
+                background-color: gray;
+                height: 50px;
+                padding-left: 4px;
+                padding-right: 4px;
+                padding-top: 4px;
+                padding-bottom: 4px;
+                margin-top: 4px;
+                margin-bottom: 4px;
+                transition: background-color 0.5s;
+                transition: height 0.5s ease;
+            }
+
+        .container-book .book:hover {
+            background-color: lightgray;
+            cursor: default;
+            height: 100px;
+            text-align: end;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container-book">
+            <div class="book"><p>Tom 1</p></div>
+        </div>
+        <div class="container-book">
+            <div class="book"><p>Tom 2</p></div>
+        </div>
+        <div class="container-book">
+            <div class="book"><p>Tom 3</p></div>
+        </div>
+        <div class="container-book">
+            <div class="book"><p>Tom 4</p></div>
+        </div>
+    </div>
+</body>
+</html>
