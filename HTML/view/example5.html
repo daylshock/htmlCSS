@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Verb Tenses Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .tense-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+            .tense-table th, .tense-table td {
+                border: 1px solid #ddd;
+                padding: 8px;
+                text-align: center;
+            }
+
+            .tense-table th {
+                background-color: #f2f2f2;
+                font-weight: bold;
+            }
+
+            .tense-table tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+
+            .tense-table tr:hover {
+                background-color: #f1f1f1;
+            }
+
+        .aspect-header {
+            background-color: #e6e6e6;
+            font-weight: bold;
+        }
+
+        .time-header {
+            background-color: #d9d9d9;
+            font-weight: bold;
+        }
+
+        .symbol {
+            font-weight: bold;
+        }
+
+        .plus {
+            color: green;
+        }
+
+        .question {
+            color: blue;
+        }
+
+        .minus {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <table class="tense-table">
+        <thead>
+            <tr>
+                <th>ASPECT</th>
+                <th>SIMPLE</th>
+                <th>PROGRESSIVE</th>
+                <th>PERFECT</th>
+                <th>PERFECT PROGRESSIVE</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="time-header" rowspan="3">Present</td>
+                <td><span class="symbol plus">+</span> V/Vs</td>
+                <td><span class="symbol plus">+</span> am/is/are + Ving</td>
+                <td><span class="symbol plus">+</span> have/has + Ved/V₃</td>
+                <td><span class="symbol plus">+</span> have/has + been + Ving</td>
+            </tr>
+            <tr>
+                <td><span class="symbol question">?</span> do/does + V</td>
+                <td><span class="symbol question">?</span> inversion</td>
+                <td><span class="symbol question">?</span> inversion</td>
+                <td><span class="symbol question">?</span> inversion</td>
+            </tr>
+            <tr>
+                <td><span class="symbol minus">-</span> do/does + not + V</td>
+                <td><span class="symbol minus">-</span> am/is/are + not + Ving</td>
+                <td><span class="symbol minus">-</span> have/has + not + Ved/V₃</td>
+                <td><span class="symbol minus">-</span> have/has + not + been + Ving</td>
+            </tr>
+
+            <tr>
+                <td class="time-header" rowspan="3">Past</td>
+                <td><span class="symbol plus">+</span> Ved/V₂</td>
+                <td><span class="symbol plus">+</span> was/were + Ving</td>
+                <td><span class="symbol plus">+</span> had + Ved</td>
+                <td><span class="symbol plus">+</span> had + been Ving</td>
+            </tr>
+            <tr>
+                <td><span class="symbol question">?</span> did + V</td>
+                <td><span class="symbol question">?</span> inversion</td>
+                <td><span class="symbol question">?</span> inversion</td>
+                <td><span class="symbol question">?</span> inversion</td>
+            </tr>
+            <tr>
+                <td><span class="symbol minus">-</span> did + not + V</td>
+                <td><span class="symbol minus">-</span> was/were + not + Ving</td>
+                <td><span class="symbol minus">-</span> had + not + Ved/V₃</td>
+                <td><span class="symbol minus">-</span> had + not + been Ving</td>
+            </tr>
+            <tr>
+                <td class="time-header" rowspan="3">Future</td>
+                <td><span class="symbol plus">+</span> will + V</td>
+                <td><span class="symbol plus">+</span> will + be + Ving</td>
+                <td><span class="symbol plus">+</span> will + have + Ved/V₃</td>
+                <td><span class="symbol plus">+</span> will + have + been Ving</td>
+            </tr>
+            <tr>
+                <td><span class="symbol question">?</span> inversion</td>
+                <td><span class="symbol question">?</span> inversion</td>
+                <td><span class="symbol question">?</span> inversion</td>
+                <td><span class="symbol question">?</span> inversion</td>
+            </tr>
+            <tr>
+                <td><span class="symbol minus">-</span> won't + V</td>
+                <td><span class="symbol minus">-</span> won't + be + Ving</td>
+                <td><span class="symbol minus">-</span> won't + have + Ved/V₃</td>
+                <td><span class="symbol minus">-</span> won't + have + been Ving</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
